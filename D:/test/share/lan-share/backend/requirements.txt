@@ -1,0 +1,23 @@
+# ============================================================
+# 局域网资源共享系统 · 后端依赖清单
+# Python 3.11+ | FastAPI | SQLite | JWT
+# ============================================================
+
+fastapi==0.115.0
+uvicorn[standard]==0.32.0
+sqlalchemy==2.0.36
+pydantic==2.10.0
+pydantic-settings==2.7.0
+
+# 认证
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+
+# 文件处理
+python-multipart==0.0.20
+aiofiles==24.1.0
+python-magic==0.4.27
+
+# 工具
+python-dotenv==1.0.0
+pytz==2025.1
